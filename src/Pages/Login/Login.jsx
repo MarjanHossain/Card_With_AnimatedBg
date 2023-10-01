@@ -18,7 +18,7 @@ const Login = () => {
                     <div className="mx-6 border-b-2 border-[#9497a3]" ></div>
                     {/* //?  Text */}
                     <div>
-                        <h2 className="text-[#e2e3e5] text-lg letter-spacing">
+                        <h2 className="text-[#e2e3e5]  letter-spacing">
                             I DEVELOP PIXEL PERFECT WEBSITES <br /> WITH COOL ANIMATION
                         </h2>
                     </div>
