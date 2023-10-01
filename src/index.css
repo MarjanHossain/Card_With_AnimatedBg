@@ -18,13 +18,15 @@
   border-radius: 2px;
   background-color: whit;
   animation-name: box;
-  animation-duration: 5s;
+  animation-duration: 2s;
    animation-iteration-count: infinite
 }
 
 @keyframes box {
   0%   {background-color:red ;}
- 
+  25%   {background-color:orange ;}
+  50%   {background-color:plum ;}
+  75%   {background-color:rgb(130, 0, 130) ;}
   100% {background-color: white;}
 }
 .box1 {
@@ -35,7 +37,7 @@
   border-radius: 2px;
   background-color: white;
   animation-name: box1;
-  animation-duration: 3s;
+  animation-duration: 1s;
    animation-iteration-count: infinite
 }
 
@@ -54,12 +56,13 @@
   border-radius: 2px;
   background-color: whit;
   animation-name: box2;
-  animation-duration: 4s;
+  animation-duration: 3s;
    animation-iteration-count: infinite
 }
 
 @keyframes box2 {
   0%   {background-color: aqua;}
+  50%   {background-color: blue;}
 
   75%   {background-color: green;}
  
