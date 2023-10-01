@@ -9,10 +9,10 @@ const Login = () => {
 
             <div className=" bg-gradient-to-r from-[#E69D97] to-[#2973DC] h-screen pt-32 ">
 
-                <div className=" w-1/2 left-80 text-center font-medium bg-[#3D4454] px-4 space-y-10 py-20 rounded-2xl absolute  z-20 " >
+                <div className=" w-1/2 left-80 text-center font-medium bg-[#3D4454] px-4 space-y-8 py-14 rounded-2xl absolute  z-20  " >
                     {/* //? Header---- */}
                     <div className="">
-                        <h1 className="text-[#F8FCFF] text-4xl letter-spacing">MR. COOL DEVELOPER</h1>
+                        <h1 className="text-[#F8FCFF] text-xl letter-spacing">MR. COOL DEVELOPER</h1>
                     </div>
                     {/* //? Border--- */}
                     <div className="mx-6 border-b-2 border-[#9497a3]" ></div>
