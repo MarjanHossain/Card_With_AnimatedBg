@@ -46,6 +46,7 @@ const AnimatedBg = () => {
                 <div className="flex justify-around "> {bg}</div>
                 <div className="flex gap-96"> {bg}</div>
                 <div className="flex justify-around">{bg2}</div>
+                <div className="flex justify-around">{bg2}</div>
                 <div className="flex justify-around "> {bg}</div>
             </div>
         </div>

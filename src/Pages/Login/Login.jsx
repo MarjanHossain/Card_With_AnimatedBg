@@ -5,9 +5,9 @@ import AnimatedBg from "../AnimatedBg/AnimatedBg";
 const Login = () => {
 
     return (
-        <section className="relative">
+        <section className="relative bg-green-600 bg-gradient-to-r from-[#E69D97] to-[#2973DC] h-screen pt-32">
 
-            <div className=" bg-gradient-to-r from-[#E69D97] to-[#2973DC] h-screen pt-32 ">
+            <div className="  ">
 
                 <div className=" w-1/2 left-80 text-center font-medium bg-[#3D4454] px-4 space-y-8 py-14 rounded-2xl absolute  z-20  " >
                     {/* //? Header---- */}
@@ -33,7 +33,7 @@ const Login = () => {
 
             </div>
             {/* //? Animated Background=================== */}
-            <div className="absolute top-0  right-0 left-0 overflow-hidden">
+            <div className="absolute top-0  right-0 left-0 ">
                 <AnimatedBg />
             </div>
             <div className="box1">

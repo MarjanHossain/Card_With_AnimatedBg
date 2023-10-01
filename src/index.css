@@ -7,23 +7,23 @@
 }
 
  .box{
-   @apply bg-red-500 bg-opacity-20  px-3 py-3 mb-2 w-[10px] }
+   @apply bg-red-500 bg-opacity-20  px-3 py-3 mb-2 w-[10px] hidden }
 
 
 .box {
-  opacity: 0.2;
+  opacity: 0.1;
   padding:12px ;
   width: 10px;
   height: 10px;
   border-radius: 2px;
   background-color: whit;
   animation-name: box;
-  animation-duration: 0.5s;
+  animation-duration: 5s;
    animation-iteration-count: infinite
 }
 
 @keyframes box {
-  0%   {background-color: ;}
+  0%   {background-color:red ;}
  
   100% {background-color: white;}
 }
@@ -33,14 +33,16 @@
   width: 10px;
   height: 10px;
   border-radius: 2px;
-  background-color: whit;
+  background-color: white;
   animation-name: box1;
-  animation-duration: 1s;
+  animation-duration: 3s;
    animation-iteration-count: infinite
 }
 
 @keyframes box1 {
-  0%   {background-color: ;}
+  0%   {background-color: red;}
+
+  50%   {background-color: yellow;}
  
   100% {background-color: white;}
 }
@@ -52,12 +54,14 @@
   border-radius: 2px;
   background-color: whit;
   animation-name: box2;
-  animation-duration: 0.5s;
+  animation-duration: 4s;
    animation-iteration-count: infinite
 }
 
 @keyframes box2 {
-  0%   {background-color: ;}
+  0%   {background-color: aqua;}
+
+  75%   {background-color: green;}
  
-  100% {background-color: white;}
+  100% {background-color: blueviolet;}
 }
